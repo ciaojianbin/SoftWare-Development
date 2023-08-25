@@ -1,0 +1,6 @@
+1.关于vxe-grid表单的方法知识总结：
+  this.$refs.accountRefGrid.getCheckboxRecords()：表示获取已选中的行
+  this.$refs.accountRefGrid.insert(newRow)：表示插入一条新行，在最上面插入
+  this.$refs.accountRefGrid.getRecordset().updateRecords：表示获取更新的行记录
+  this.$refs.accountRefGrid.getRecordset().insertRecords：表示获取插入的行记录
+  this.$refs.accountRefGrid.getRemoveRecords()：表示获取删除的数据
